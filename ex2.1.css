@@ -1,0 +1,27 @@
+.row-wrapper{
+    width: 1000px;
+    background: rgb(230, 220, 220);
+    border: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.column-wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+.box{
+    background-color: blue;
+    width: 200px;
+    padding:0 0 10px 10px;
+    margin:0 0 5px  5px;
+    border-radius: 5px;
+}
+
+    
+
+    
+
+   
+

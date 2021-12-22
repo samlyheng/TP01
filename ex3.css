@@ -1,0 +1,35 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.small {
+    padding: 20px;
+    background-color:red ;
+    display: none;
+}
+
+.big {
+    padding: 20px;
+    background-color: greenyellow;
+    display: none;
+}
+
+@media only screen and (max-width: 350px) {
+    .wrapper {
+        background-color: whitesmoke;
+    }
+    .small {
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 350px) {
+    .big {
+        display: block;
+    }
+}

@@ -1,0 +1,20 @@
+.wrapper{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(197, 194, 194);
+    justify-content: center;
+    align-items: center;
+}
+.drop{
+    animation: drop 1s ease-in-out;
+    animation-delay: calc(var(--order) * 100ms);
+}
+@keyframes drop {
+    from{
+        transform: translateY(-100px)
+    }
+    to{
+        transform: translateY(0px)
+    }
+}

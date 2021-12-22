@@ -1,0 +1,11 @@
+.header{
+    height: 50px;
+    border: 100%;
+    border-width: 200px;
+    background-color: darkgrey;
+    text-align: center;
+    padding-top: 1.5rem;
+}
+.content{
+    overflow: scroll;
+}
